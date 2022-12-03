@@ -1,13 +1,10 @@
-package org.example;
+package org.example.adapter1.fb;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.time.LocalDate;
 
-enum Country {
-    Ukraine, USA, Poland;
-}
 
 @Getter
 @AllArgsConstructor

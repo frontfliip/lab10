@@ -2,10 +2,11 @@ package org.example.adapter2;
 
 public class Main {
     public static void main(String[] args) {
-        БазаДаних db = new БазаДаних();
-        Авторизація авторизація = new Авторизація();
-        if (авторизація.авторизуватися(db)) {
-            ReportBuilder br = new ReportBuilder(db);
+        DataBase db = new DataBase();
+        Auth auth = new Auth();
+        if (auth.auth(db)) {
+            ReportBuilder rb = new ReportBuilder(db);
+            System.out.println(rb.getReport());
         }
     }
 }

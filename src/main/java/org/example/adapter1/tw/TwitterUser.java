@@ -1,4 +1,4 @@
-package org.example;
+package org.example.adapter1.tw;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
